@@ -14,10 +14,10 @@ public class ex03_105021026 {
 		Scanner scn =new Scanner(System.in);
 		char a =scn.next().charAt(0);
 		if(a>=65 && a<=90){
-			System.out.print((a+32));
+			System.out.print((char)(a+32));
 		}
 		else if(a>=97 && a<=122){
-			System.out.print((a-32));
+			System.out.print((char)(a-32));
 		}
 		else{
 			System.out.print("這不是英文字母喔");
