@@ -18,7 +18,8 @@ public class ex04_105021026 {
 		int c = Integer.parseInt(a);
 		int sum = 0;
 		for (int u = 0; u < (b+1); u++) {
-			sum =(c%10*u) + sum;
+			sum =(c%10) + sum;
+			c=c/10;
 		}
 		System.out.print(sum);
 	}
