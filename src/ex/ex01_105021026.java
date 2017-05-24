@@ -9,12 +9,11 @@ import java.util.Scanner;
 public class ex01_105021026 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.print("請輸入一個字串:");
-		Scanner scn =new Scanner(System.in);
-		String a =scn.nextLine();
-		String b =new StringBuilder(a).reverse().toString();
-		System.out.print(b);
+//		System.out.print("請輸入一個字串:");
+//		Scanner scn =new Scanner(System.in);
+//		String a =scn.nextLine();
+//		String b =new StringBuilder(a).reverse().toString();
+//		System.out.print(b);
 	}
 
 }
